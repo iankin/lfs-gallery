@@ -45,6 +45,10 @@ msgstr "Позиция"
 msgid "Image"
 msgstr "Картинка"
 
+#: .\models.py:46
+msgid "Description"
+msgstr "Описание"
+
 #: .\templates\manage\add_gallery.html.py:11
 #: .\templates\manage\gallery_item.html.py:9
 msgid "Add gallery"
