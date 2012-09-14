@@ -43,6 +43,9 @@ class GalleryItem(models.Model):
     image = models.ImageField(verbose_name=_(u"Image"),
                               upload_to='gallery')
 
+    description = models.TextField(verbose_name=_(u"Description"),
+                                   blank=True, null=True)
+
     def __unicode__(self):
         return self.title
 
